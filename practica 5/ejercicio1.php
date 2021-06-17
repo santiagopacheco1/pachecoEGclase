@@ -1,4 +1,4 @@
-<?php $destinatario = "xx@xx.com ";
+<?php $destinatario = "santi.pacheco100100@gmail.com";
 $asunto = "Prueba";
 $cuerpo = ' 
 <html> 
