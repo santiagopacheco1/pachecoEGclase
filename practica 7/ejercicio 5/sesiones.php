@@ -4,8 +4,11 @@
 </head>
 <body>
 <form action="pagina2.php" method="post">
-<p>Ingrese el mail del alumno a consultar:</p>
-<input type="text" name="mail">
+<p>Ingrese el nombre del usuario:</p>
+<input type="text" name="nombre">
+<br>
+<p>Ingrese la clave del cliente:</p>
+<input type="text" name="clave">
 <br>
 <input type="submit" value="buscar">
 </form>

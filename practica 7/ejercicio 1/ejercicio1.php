@@ -1,10 +1,11 @@
 <?php
-//Veo si recibo datos del formulario if(isset($_POST["estilo"])){
-//es que estoy recibiendo un estilo nuevo, lo tengo que meter en las cookies
+//Veo si recibo datos del formulario 
+if(isset($_POST["estilo"]))
+{
 $estilo = $_POST["estilo"];
-//meto el estilo en una cookie
-setcookie("estilo", $estilo, time() + (60 * 60 * 24 * 90));
-}else{
+setcookie("estilo", $estilo, time());
+}
+else{
 //si no he recibido el estilo que desea el usuario en la página, miro si hay una cookie creada
 if (isset($_COOKIE["estilo"])){
 //es que tengo la cookie
